@@ -1,0 +1,21 @@
+html {
+  font-family: Merriweather, serif;
+}
+
+.masthead {
+  background-color: #163010;
+
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+a:hover {
+  color: #94d385;
+  text-decoration: none;
+  border: none;
+}
