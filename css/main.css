@@ -20,10 +20,15 @@ a:hover {
   border: none;
 }
 
+.red {
+  background: red;
+}
+/*
 .logo {
   margin-left: 20px;
 
 }
+*/
 
 .foot{
   background-color: #163010;

@@ -12,14 +12,20 @@
 </head>
 <body>
 
-<header class="masthead">
-  <div class="pad-t">
-    <a class="logo yotta bold" href="index.html">R & S Reptile Rescue</a>
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
 
-  </div>
-  <nav class="grid">
-    <div class="unit text-right xs-1 s-1 m-2-3 l-2-3 wrapper gutter-1-2">
-      <ul class="mega text-right list-group-inline push-0">
+  <header class="masthead" role="banner">
+
+  <nav class="text-center grid grid-middle pad-t pad-b" role="navigation" id="nav" tabindex="0">
+
+    <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2">
+      <p class="logo giga bold push-0"><a href="index.html">R & S Reptile Rescue</a></p>
+    </div>
+    <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
+      <ul class="kilo list-group-inline push-0">
         <li><a class="gutter-1-8" href="index.html">Home</a></li>
         <li><a class="gutter-1-8" href="rescues.html">Rescues</a></li>
         <li><a class="gutter-1-8" href="adopt.html">Adopt</a></li>
@@ -28,7 +34,7 @@
     </div>
   </nav>
 </header>
-<main>
+<main id="main" role="main" tabindex="0">
   <section>
     <div class="embed embed-24by10">
       <img class="embed-item" src="images/beardy.jpg" alt="">
@@ -40,13 +46,13 @@
       </div>
     </div>
     <div class="unit xs-1 text-center">
-              <button class="btn mega"><a href="rescues.html">Send</a></button>
-            </div>
+      <a class="btn btn-ghost" href="rescues.html">Send</a>
+    </div>
   </section>
 </main>
 <footer>
   <div class="foot pad-t pad-b">
-    <div class="no-auto-margins foot padding-right wrapper gutter-1-2">
+    <div class="no-auto-margins foot padding-right gutter-1-2">
       <small class="push-0 micro"> © <i>R & S Reptile Rescue</i></small>
     </div>
   </div>
