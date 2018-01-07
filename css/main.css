@@ -37,3 +37,7 @@ a:hover {
 small {
   color: #fff;
 }
+
+fieldset {
+  border: 0;
+}

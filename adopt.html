@@ -36,3 +36,184 @@
       </div>
     </nav>
   </header>
+
+    <form method="post" action="#">
+
+      <fieldset class="push gutter-1-4">
+        <legend class="unit xs-1 giga push bold">Personal details</legend>
+        <div class="grid">
+          <div class="unit xs-1 m-1-2 pad-t-1-2 gutter-1-8">
+            <label for="name">Full name</label>
+            <input id="name" name="name">
+          </div>
+          <div class="unit xs-1 m-1-2 push gutter-1-4">
+            <label for="nickname">Prefered name</label>
+            <input id="nickname" name="nickname">
+          </div>
+          <div class="unit xs-1 m-1-2 push gutter-1-4">
+            <label for="date-of-birth">Date of birth</label>
+            <input id="date-of-birth" name="date-of-birth" type="date">
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-4 push">
+            <label for="reptile">I want to adopt a...</label>
+            <select id="reptile" name="reptile">
+              <option value="">Select a reptile</option>
+              <option>Snake</option>
+              <option>Lizard</option>
+              <option>Amphibian</option>
+            </select>
+          </div>
+          <div class="unit xs-1 m-1-2 push gutter-1-4">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
+          </div>
+          <div class="unit xs-1 m-1-2 push gutter-1-4">
+            <label for="tel">Phone number</label>
+            <input id="tel" type="tel" name="tel">
+          </div>
+        </div>
+
+      </fieldset>
+
+      <hr class="island-1-8 push gutter-1-4">
+
+      <fieldset class="grid gutter-1-4 push">
+        <legend class=" unit xs-1 m-1-2 push tera bold pad-t-1-2">Address</legend>
+        <div class="grid">
+          <div class="unit xs-1 m-1-2 pad-t-1-2 gutter-1-8 push">
+            <label for="street-address">Street Address</label>
+            <input id="street-address" name="street-address">
+          </div>
+          <div class="unit xs-1 m-1-2 push island-1-4 pad-t-1-4">
+            <label for="city">City</label>
+            <input id="city" name="city">
+          </div>
+          <div class="unit xs-1 m-1-2 push gutter-1-4 push">
+            <label for="province">Province</label>
+            <select id="province" name="province">
+              <option value="">Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="unit xs-1 m-1-2 push pad-t-1-2 pad-b-1-4">
+            <label for="postal-code">Postal code</label>
+            <input id="postal-code" name="postal-code">
+          </div>
+        </div>
+      </fieldset>
+
+      <hr class="push island-1-2 gutter-1-2">
+
+      <fieldset class="grid push-2 pad-t-1-8">
+        <legend class="unit xs-1 giga bold push-1-2 gutter-1-2 push-r-2">What kind of snake are you interested in adopting?</legend>
+        <div class="grid">
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4 pad-t-1-8">
+            <input type="checkbox" id="python">
+            <label for="python">Ball Python</label>
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4 pad-t-1-8">
+            <input type="checkbox" id="king-snake">
+            <label for="king-snake">Albino King Snake</label>
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
+            <input type="checkbox" id="corn-snake">
+            <label for="corn-snake">Corn Snake</label>
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
+            <input type="checkbox" id="boa">
+            <label for="boa">Rosy Boa</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="push-2">
+        <legend class="unit xs-1 giga bold push-1-2 gutter-1-2 push-r-2">What kind of Amphibian are you interested in adopting?</legend>
+        <div class="grid">
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4 pad-t-1-8">
+            <input type="checkbox" id="frog">
+            <label for="frog">Frog</label>
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
+            <input type="checkbox" id="toad">
+            <label for="toad">Toad</label>
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
+            <input type="checkbox" id="something">
+            <label for="something">something</label>
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
+            <input type="checkbox" id="something">
+            <label for="something">something</label>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <hr class=" island-1-2 gutter-1-2 push">
+
+      <fieldset class="push-2">
+        <legend class="giga bold push-1-2 push-r-2 pad-t-1-8 gutter-1-2">Do you have a reptile experience?</legend>
+        <div class="gutter-1-2 inline push-2">
+          <input id="yes-experience" type="radio" name="agree">
+          <label for="yes-experience">Yes</label>
+        </div>
+        <div class="gutter-1-2 inline push-2">
+          <input id="no-experience" type="radio" name="agree">
+          <label for="no-experience">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="push-2">
+        <legend class="bold giga push-1-2 push-r-2 pad-t-1-8 gutter-1-2">Have you or anyone currently living at the address above, ever been charged or convicted of animal neglect, cruelty/abuse or domestic violence?</legend>
+        <div class="gutter-1-2 inline push-2">
+          <input id="yes-neglect" type="radio" name="agree">
+          <label for="yes-neglect">Yes</label>
+        </div>
+        <div class="gutter-1-2 inline push-2">
+          <input id="no-neglect" type="radio" name="agree">
+          <label for="no-neglect">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="push-2">
+        <legend class="bold giga gutter-1-2 push-r-2 push-1-2">Have you ever been denied pet adoption in the past?</legend>
+        <div class="gutter-1-2 inline push-2">
+          <input id="yes-denied" type="radio" name="agree">
+          <label for="yes-denied">Yes</label>
+        </div>
+        <div class="inline push-2 gutter-1-2">
+          <input id="no-denied" type="radio" name="agree">
+          <label for="no-denied">No</label>
+        </div>
+      </fieldset>
+
+      <hr class="island-1-2 gutter-1-2 push">
+
+      <fieldset class="gutter-1-4">
+        <legend class="giga bold gutter-1-2">Why do you think you would be a good candidate for adopting a reptile?</legend>
+        <div class="gutter-1-4 island-1-4 push-1-4">
+          <textarea id="comments" name="comments" class="push-2"></textarea>
+        </div>
+      </fieldset>
+
+      <hr class="push">
+
+    </form>
+
+    <div class="text-center push-2 pad-b-1-8 pad-t-1-8">
+      <button class="gutter-2 giga" type="submit">Send</button>
+    </div>
+
+  </body>
+  </html>
