@@ -23,6 +23,7 @@ a:hover {
 .red {
   background: red;
 }
+
 /*
 .logo {
   margin-left: 20px;
@@ -30,7 +31,7 @@ a:hover {
 }
 */
 
-.foot{
+.foot {
   background-color: #163010;
 }
 
@@ -40,4 +41,25 @@ small {
 
 fieldset {
   border: 0;
+}
+
+.lizard {
+  height: 30px;
+}
+
+.snake {
+  height: 30px;
+}
+
+.turtle {
+  height: 30px;
+}
+
+.toad {
+  height: 30px;
+}
+
+.icon {
+  opacity: .08;
+  padding-bottom: 1000px;
 }
