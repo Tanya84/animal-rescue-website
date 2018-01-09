@@ -34,6 +34,15 @@ p {
   font-family: Merriweather, serif;
 }
 
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
 
 .foot {
   background-color: #163010;
@@ -75,5 +84,7 @@ fieldset {
   height: 30px;
 }
 
-.leo {
+.reps {
+  color: #000;
+  text-decoration: none;
 }
