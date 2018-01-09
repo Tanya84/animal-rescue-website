@@ -35,6 +35,18 @@ a:hover {
   background-color: #163010;
 }
 
+.btn {
+  background-color: #113c00;
+  border-color: #113c00;
+
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #568c36;
+  border-color: #568c36;
+}
+
 small {
   color: #fff;
 }
@@ -61,5 +73,4 @@ fieldset {
 
 .icon {
   opacity: .08;
-  padding-bottom: 1000px;
 }
