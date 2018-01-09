@@ -1,5 +1,6 @@
 html {
   font-family: Merriweather, serif;
+  font-family: Roboto, sans-serif;
 }
 
 .masthead {
@@ -12,6 +13,7 @@ a {
   color: #fff;
   text-decoration: none;
   border: none;
+  font-family: Roboto, sans-serif;
 }
 
 a:hover {
@@ -24,12 +26,14 @@ a:hover {
   background: red;
 }
 
-/*
 .logo {
-  margin-left: 20px;
-
+  font-family: Merriweather, serif;
 }
-*/
+
+p {
+  font-family: Merriweather, serif;
+}
+
 
 .foot {
   background-color: #163010;
@@ -72,5 +76,4 @@ fieldset {
 }
 
 .leo {
-max-height: 30px;
 }
